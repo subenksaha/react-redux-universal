@@ -1,0 +1,21 @@
+{
+  "username": "root",
+  "password": "",
+  "database": "newdb",
+  "options":{
+    "host": "localhost",
+    "dialect": "mysql",
+    "charset": "utf8",
+    "collate": "utf8_unicode_ci",
+    "engine":"InnoDB",
+    "dialectOptions": {
+      "supportBigNumbers": true,
+      "bigNumberStrings": true
+    },
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  }
+}

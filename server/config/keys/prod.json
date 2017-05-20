@@ -1,0 +1,12 @@
+{
+  "jwt" : {
+      "secret": "your special secret",
+      "expiration":{
+        "generel":3600,
+        "extended":172800
+      },
+      "session":{
+        "session": false
+      }
+  }
+}
