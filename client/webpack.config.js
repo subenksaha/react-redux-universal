@@ -19,7 +19,6 @@ var config = {
             $: "jquery",
             jQuery: "jquery"
         }),
-        new webpack.HotModuleReplacementPlugin(),
         new webpack.DefinePlugin({
             'process.env.BABEL_ENV': JSON.stringify('dev')
         }),
